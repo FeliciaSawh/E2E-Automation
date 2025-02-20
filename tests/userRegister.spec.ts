@@ -11,7 +11,6 @@ test.describe('Verifying login functionality', () => {
         loginpage = new LoginPage(page)
         userregister = new UserRegister(page)
         await loginpage.visitWeb()
-       
     })
 
     test('Should create a user account', async ({page}) => {

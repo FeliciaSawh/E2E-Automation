@@ -20,7 +20,7 @@ test.describe('Verifying login functionality', () => {
 
     })
 
-    test.skip('Verify login witn invalid credential', async ({page}) => {
+    test('Verify login witn invalid credential', async ({page}) => {
         await loginpage.clickOnLoginRegister()
         await loginpage.login('markdoe55', 'markdoe101')
         await loginpage.assertErrorMessage()
