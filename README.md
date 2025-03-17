@@ -40,7 +40,7 @@ npm install
  ├── 📂 tests               # Test scripts
  │   ├── login.spec.ts      # Login tests
  │   ├── order.spec.ts      # Order flow tests
- │   ├── userRegister.spec.ts # User registration tests
+ │   ├── search.spec.ts # User registration tests
  │
  ├── 📂 page-objects        # Page Object Model (POM)
  │   ├── CheckoutPage.ts    # Checkout page actions
